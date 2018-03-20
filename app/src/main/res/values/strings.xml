@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GeoLocation</string>
+    <string name="internet_error_message">Fella! connect to Internet....</string>
+    <string name="error">Bad Luck try again later!</string>
+    <string name="verify_number">Verify Number</string>
+    <string name="phone_auth_msg">Phone Auth</string>
+    <string name="enter_otp_code">Enter OTP code</string>
+    <string name="otp_message">OTP</string>
+    <string name="hint_phone_number">Enter Phone Number</string>
+    <string name="invalid_user">Invalid User</string>
+    <string name="verification_successful">Verification Successful</string>
+    <string name="verify_phone_auth">Verify Phone Auth</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="enter">Enter</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="or">OR</string>
+    <string name="spread_connection">Spread the Connection!</string>
+    <string name="share_ui_msg">Invite your friend to try out GeoLocation by downloading the GeoLocation app.</string>
+    <string name="invite_via_sms">Invite via SMS</string>
+    <string name="invite_via_email">Invite via Email</string>
+    <string name="invite_via_facebook">Invite via Facebook</string>
+    <string name="share_message">Join GeoLocation! Use my Invite Code  </string>
+    <string name="invite_via_other">Invite via Other</string>
+    <string name="enter_invite_code">Have your Friends Invite Code! Enter the code to Connect them</string>
+    <string name="connect">Connect</string>
+    <string name="connected_users">Connected Users</string>
+    <string name="selected_meeting_place">Select Meeting Place, Drag Marker to select location</string>
+    <string name="set_location">Set Location</string>
+    <string name="meeting_place">Meeting Place</string>
+</resources>

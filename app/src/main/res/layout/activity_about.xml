@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.geolocation.Activity.About">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GeoLocation, an android application that lets you connect to your friends or partner."
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"/>
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="GeoLocation also allows user to set the location of the meeting place where they going to meet.
+"/>
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="It also tracks the current location of the user and display on the map.
+"/>
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="GeoLocation continuously monitors the location of the user as they are moving and updates the marker postion on the map so that the user can monitor their location as well as their friend's."/>
+
+</LinearLayout>

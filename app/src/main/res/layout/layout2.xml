@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/mobile_otp"
+        android:id="@+id/imageView" />
+
+    <com.adevole.customresources.CustomTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Waiting to automatically detect an SMS sent to you mobile"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp" />
+
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="9594458059"
+        android:textColor="@color/black"
+        android:id="@+id/mobile_number"
+        android:textSize="20sp"/>
+
+    <com.adevole.customresources.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Enter 4 - Digit Code"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/customTextView2" />
+
+    <com.adevole.customresources.CustomEditText
+        android:id="@+id/field_verification_code"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customTextView2"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:inputType="phone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/field_verification_code">
+
+        <com.adevole.customresources.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn't receive the code ?"/>
+
+        <com.adevole.customresources.CustomTextView
+            android:id="@+id/button_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="RESEND CODE"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+    <com.adevole.customresources.CustomButton
+        android:id="@+id/button_verify_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:text="Proceed"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

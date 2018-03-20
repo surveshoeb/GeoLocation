@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.geolocation.Activity.Login">
+
+    <include
+        android:id="@+id/auth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/layout1"
+        android:visibility="visible"/>
+
+    <include
+        android:id="@+id/verify_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/layout2"
+        android:visibility="gone"/>
+
+    <!--Invalid user-->
+    <com.adevole.customresources.CustomTextView
+        android:id="@+id/invalid_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/invalid_user"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <!--valid user-->
+    <com.adevole.customresources.CustomTextView
+        android:id="@+id/verification_successful"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/verification_successful"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
